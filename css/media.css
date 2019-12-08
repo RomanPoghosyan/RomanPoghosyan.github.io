@@ -1,0 +1,63 @@
+@media screen and (max-width: 991px){
+	.about {
+		padding: 0 50px 0 50px;
+	}
+	.short-input {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.about {
+		padding: 0 10px 0 10px;
+	}
+}
+
+@media screen and (max-width: 667px){
+	.name {
+		font-size: 40px !important;
+	}
+	.photo {
+		width: 200px;
+		height: 200px;
+		margin-top: -100px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.edu {
+	    border-bottom: 1px solid gray;
+	    border-right: none;
+	    text-align: left !important;
+    }
+    .place {
+    	padding-left: 0 !important;
+    	margin-left: 0 !important;
+    }
+    .education {
+    	padding-right: 0 !important;
+    }
+    .short-input {
+    	display: inline-block;
+    	width: 49%;
+    }
+}
+
+@media screen and (max-width: 462px){
+	.headings {
+		font-size: 25px !important;
+	}
+	.short-input {
+		display: block;
+		width: 100%;
+	}
+	.photo {
+		width: 150px;
+		height: 150px;
+		margin-top: -75px;
+	}
+}
+
+
+
